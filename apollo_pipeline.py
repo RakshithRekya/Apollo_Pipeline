@@ -17,11 +17,7 @@ from difflib import SequenceMatcher
 
 
 # === CONFIGURATION ===
-# Placeholder for tokens & URL (set at runtime)
-#APIFY_API_TOKEN = "apify_api_mrx8AiWsqMnfHZV7y0KUID15CGwv7I4lDCSW"  # Replace this
-#BOUNCEBAN_API_KEY = "bac0ace4b945eef6aceb364ac552af47"  # Replace this
-#APOLLO_SEARCH_URL = "https://app.apollo.io/#/people?page=1&organizationIds[]=556d6bb373696411fd120101&organizationIds[]=61eba46635380500013f6cfc&organizationIds[]=54a11ba669702d7fe6ec5600&organizationIds[]=5c24e8ada3ae61ccc0cd224d&organizationIds[]=54a1360769702d48e2bcf400&organizationIds[]=5fdc3b5541707e00be31b751&organizationIds[]=5e5761317eed110001328bb7&organizationIds[]=65f003e2a8b5bd0007be2631&organizationIds[]=57c4a97aa6da98685a5a1a83&organizationIds[]=54a1363169702d46f00c0401&organizationIds[]=60f282198b817700017b2071&organizationIds[]=5d35e6d2f651256207a32ccb&organizationIds[]=556941d9736964219a261f00&organizationIds[]=5a9dfdc5a6da98d9852cbdd7&organizationIds[]=5569a4d973696425895f7300&organizationIds[]=54a1202869702d918cc23102&organizationIds[]=5c2725fff65125e9c0f17b4d&organizationIds[]=5b84db8e324d4471c4612860&organizationIds[]=602e84780b450400e2322231&organizationIds[]=54a1209669702da10f048802&organizationIds[]=5a9eadfba6da98d9356d9263&sortByField=%5Bnone%5D&sortAscending=false&personTitles[]=owner&personTitles[]=ceo&personTitles[]=general%20director&personTitles[]=founder&personTitles[]=founder%20and%20ceo&personSeniorities[]=owner&personSeniorities[]=founder&personSeniorities[]=c_suite&personSeniorities[]=director&personSeniorities[]=head&personSeniorities[]=vp&personSeniorities[]=partner"  # Replace this
-#TOTAL_RECORDS = 25
+
 # Constants to be set via input()
 EXCEL_FILE = "apollo_scraped_data.xlsx"
 EMAIL_COL_NAME = "Personal Email"
